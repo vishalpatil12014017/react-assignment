@@ -41,7 +41,7 @@ function CreditCard() {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        alert("Success")
         setFormData({
           name: "",
           cardNumber: "",
@@ -64,10 +64,10 @@ function CreditCard() {
           brand={formData.category.toLowerCase()}
           preview={true}
         />
-        <form style={{ "margin-top": "10px" }} onSubmit={handleSubmit}>
+        <form className="form" style={{ "margin-top": "10px" }} onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Name:</label>
-            <input
+            <label className="formlabel" htmlFor="name">Name:</label>
+            <input className="forminput"
               type="text"
               id="name"
               name="name"
@@ -76,8 +76,8 @@ function CreditCard() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="cardNumber">Card Number:</label>
-            <input
+            <label className="formlabel" htmlFor="cardNumber">Card Number:</label>
+            <input className="forminput"
               type="text"
               id="cardNumber"
               name="cardNumber"
@@ -87,8 +87,8 @@ function CreditCard() {
           </div>
           <div className="form-row">
             <div className="form-group">
-              <label htmlFor="cardExpiration">Expiration Date:</label>
-              <input
+              <label className="formlabel" htmlFor="cardExpiration">Expiration Date:</label>
+              <input className="forminput"
                 type="text"
                 id="cardExpiration"
                 name="cardExpiration"
@@ -97,8 +97,8 @@ function CreditCard() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="cardCvc">CVC:</label>
-              <input
+              <label className="formlabel" htmlFor="cardCvc">CVC:</label>
+              <input className="forminput"
                 type="text"
                 id="cardCvc"
                 name="cardCvc"
@@ -108,8 +108,8 @@ function CreditCard() {
             </div>
           </div>
           <div className="form-group">
-            <label htmlFor="category">Category:</label>
-            <input
+            <label className="formlabel" htmlFor="category">Category:</label>
+            <input className="forminput"
               type="text"
               id="category"
               name="category"
