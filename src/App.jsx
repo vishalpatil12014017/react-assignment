@@ -4,7 +4,7 @@ import { history } from '_helpers';
 import { Nav, PrivateRoute } from '_components';
 import { Home } from 'home';
 import { Login } from 'login';
-
+import { CreditCard,CreditCardCarousel } from 'cards';
 export { App };
 
 function App() {
@@ -27,6 +27,8 @@ function App() {
                         }
                     />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/cards" element={<CreditCard />} />
+                    <Route path="/cardsview" element={<CreditCardCarousel />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
             </div>
