@@ -1,7 +1,7 @@
 {
   "name": "react-intern-assignment",
   "version": "1.0.0",
-  "homepage": "https://github.com/vishalpatil12014017/react-assignment-deploy",
+  "homepage": "https://github.com/vishalpatil12014017/react-assignment",
   "repository": {
     "type": "git",
     "url": "https://github.com/sobingt/react-intern-assignment"
@@ -10,6 +10,7 @@
   "dependencies": {
     "@hookform/resolvers": "^2.9.0",
     "@reduxjs/toolkit": "^1.8.2",
+    "gh-pages": "^5.0.0",
     "react": "^18.1.0",
     "react-credit-cards": "^0.8.3",
     "react-dom": "^18.1.0",
