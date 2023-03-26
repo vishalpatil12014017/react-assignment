@@ -64,7 +64,7 @@ function CreditCard() {
           brand={formData.category.toLowerCase()}
           preview={true}
         />
-        <form className="form" style={{ "margin-top": "10px" }} onSubmit={handleSubmit}>
+        <form className="form" onSubmit={handleSubmit}>
           <div className="form-group">
             <label className="formlabel" htmlFor="name">Name:</label>
             <input className="forminput"
