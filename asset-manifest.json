@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vishalpatil12014017/react-assignment/static/css/main.92f1324a.css",
-    "main.js": "/vishalpatil12014017/react-assignment/static/js/main.3d28c171.js",
+    "main.js": "/vishalpatil12014017/react-assignment/static/js/main.f7d4e121.js",
     "index.html": "/vishalpatil12014017/react-assignment/index.html",
     "main.92f1324a.css.map": "/vishalpatil12014017/react-assignment/static/css/main.92f1324a.css.map",
-    "main.3d28c171.js.map": "/vishalpatil12014017/react-assignment/static/js/main.3d28c171.js.map"
+    "main.f7d4e121.js.map": "/vishalpatil12014017/react-assignment/static/js/main.f7d4e121.js.map"
   },
   "entrypoints": [
     "static/css/main.92f1324a.css",
-    "static/js/main.3d28c171.js"
+    "static/js/main.f7d4e121.js"
   ]
 }
